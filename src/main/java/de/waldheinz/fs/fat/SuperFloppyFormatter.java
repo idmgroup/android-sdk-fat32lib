@@ -304,7 +304,7 @@ public final class SuperFloppyFormatter {
      */
     public static FatType fatTypeFromSize(long sizeInBytes) {
         final long sizeInMb = sizeInBytes / (1024 * 1024);
-        if (sizeInMb < 4) return FatType.FAT12;
+        if (sizeInMb < 5) return FatType.FAT12;
         else if (sizeInMb < 2048) return FatType.FAT16;
         else return FatType.FAT32;    	
     }
