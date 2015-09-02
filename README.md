@@ -35,8 +35,10 @@ Exception in thread "main" java.lang.RuntimeException: Error getting/writing fil
 
 ## How to use
 
+(on OS X, $ANDROID_SDK is by default ~/Library/Android/sdk)
+
 1. Produce the library with `gradle jar`
 2. Archive SDK version `mv $ANDROID_SDK/tools/lib/fat32lib.jar $ANDROID_SDK/tools/lib/fat32lib.jar.orig`
 3. Put patched version in place `cp build/lib/android-sdk-fat32lib.jar $ANDROID_SDK/tools/lib/fat32lib.jar`
 
-Now you jobb should work on larger folders
+Now jobb should work on larger folders
