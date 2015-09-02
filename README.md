@@ -32,10 +32,11 @@ Exception in thread "main" java.lang.RuntimeException: Error getting/writing fil
 
 * Original version available at https://github.com/waldheinz/fat32-lib/
 * Modified version available at https://android.googlesource.com/platform/external/fat32lib/
+* Stackoverflow issue http://stackoverflow.com/questions/18906055/what-causes-jobb-tool-to-throw-fat-full-ioexception
 
 ## How to use
 
-(on OS X, $ANDROID_SDK is by default ~/Library/Android/sdk)
+(on OS X, `$ANDROID_SDK` is by default `~/Library/Android/sdk`)
 
 1. Produce the library with `gradle jar`
 2. Archive SDK version `mv $ANDROID_SDK/tools/lib/fat32lib.jar $ANDROID_SDK/tools/lib/fat32lib.jar.orig`
