@@ -1,5 +1,7 @@
 # android-sdk-fat32lib
 
+[![Build Status](https://travis-ci.org/idmgroup/android-sdk-fat32lib.svg?branch=master)](https://travis-ci.org/idmgroup/android-sdk-fat32lib)
+
 Forked to solve an issue with the JOBB tool distributed with the Android SDK as of today (Android SDK 23) not able to produce OBB files larger than 512M.
 
 Typical backtrace
